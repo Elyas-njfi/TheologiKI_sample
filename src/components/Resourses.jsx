@@ -4,7 +4,7 @@ const Resourses = () => {
   return (
     <div className='mt-20'>
         <div className="text-center">
-            <span className='bg-neutral-100 dark:bg-neutral-900 text-orange-800 dark:text-orange-500 rounded-full h-6 text-sm font-medium px-2 py-1 uppercase'>
+            <span className='bg-neutral-100 text-orange-800 rounded-full h-6 text-sm font-medium px-2 py-1 uppercase'>
                 resourses
             </span>
         </div>

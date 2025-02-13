@@ -6,7 +6,7 @@ const Pricing = () => {
   return (
     <div className="mt-20">
         <div className="text-center">
-            <span className='bg-neutral-100 dark:bg-neutral-900 text-orange-800 dark:text-orange-500 rounded-full h-6 text-sm font-medium px-2 py-1 uppercase'>
+            <span className='bg-neutral-100 text-orange-800 rounded-full h-6 text-sm font-medium px-2 py-1 uppercase'>
                 pricing
             </span>
         </div>
@@ -39,7 +39,7 @@ const Pricing = () => {
               </ul>
               <a
                 href="#"
-                className="inline-flex justify-center items-center text-center w-full h-12 p-5 mt-20 tracking-tight text-xl hover:dark:bg-orange-900 hover:bg-orange-700 hover:text-white border border-orange-900 rounded-lg transition duration-200"
+                className="inline-flex justify-center items-center text-center w-full h-12 p-5 mt-20 tracking-tight text-xl  hover:bg-orange-700 hover:text-white border border-orange-900 rounded-lg transition duration-200"
               >
                 Subscribe
               </a>

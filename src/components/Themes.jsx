@@ -9,7 +9,7 @@ const Themes = () => {
   return (
     <div className='mt-20'>
         <div className="text-center">
-            <span className='bg-neutral-100 dark:bg-neutral-900 text-orange-800 dark:text-orange-500 rounded-full h-6 text-sm font-medium px-2 py-1 uppercase'>
+            <span className='bg-neutral-100 text-orange-800 rounded-full h-6 text-sm font-medium px-2 py-1 uppercase'>
                 themes
             </span>
         </div>
@@ -35,7 +35,7 @@ const Themes = () => {
             <div className='pt-12 w-full lg:w-1/2'>
                 {checklistItems.map((item, index) => (
                 <div key={index} className="flex mb-12">
-                <div className="dark:text-green-400 text-green-600 mx-6 bg-neutral-100 dark:bg-neutral-900 h-10 w-10 p-2 justify-center items-center rounded-full">
+                <div className="text-green-600 mx-6 bg-neutral-100 h-10 w-10 p-2 justify-center items-center rounded-full">
                     <CheckCircle2 />
                 </div>
                 <div>

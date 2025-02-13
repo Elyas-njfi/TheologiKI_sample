@@ -12,7 +12,7 @@ const Footer = () => {
               <li key={index}>
                 <a
                   href={link.href}
-                  className="text-neutral-500 dark:text-neutral-300 hover:dark:text-white hover:text-neutral-900"
+                  className="text-neutral-500 hover:text-neutral-900"
                 >
                   {link.text}
                 </a>
@@ -27,7 +27,7 @@ const Footer = () => {
               <li key={index}>
                 <a
                   href={link.href}
-                  className="text-neutral-500 dark:text-neutral-300 hover:dark:text-white hover:text-neutral-900"
+                  className="text-neutral-500 hover:text-neutral-900"
                 >
                   {link.text}
                 </a>
@@ -42,7 +42,7 @@ const Footer = () => {
               <li key={index}>
                 <a
                   href={link.href}
-                  className="text-neutral-500 dark:text-neutral-300 hover:dark:text-white hover:text-neutral-900"
+                  className="text-neutral-500 hover:text-neutral-900"
                 >
                   {link.text}
                 </a>

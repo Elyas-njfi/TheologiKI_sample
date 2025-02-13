@@ -5,7 +5,7 @@ const Blog = () => {
   return (
     <div className='mt-20'>
         <div className="text-center">
-            <span className='bg-neutral-100 dark:bg-neutral-900 text-orange-800 dark:text-orange-500 rounded-full h-6 text-sm font-medium px-2 py-1 uppercase'>
+            <span className='bg-neutral-100  text-orange-800  rounded-full h-6 text-sm font-medium px-2 py-1 uppercase'>
                 blog
             </span>
         </div>
@@ -19,7 +19,7 @@ const Blog = () => {
             </p>
         </div>
         <div className="flex justify-center my-10">
-            <a href="#" className='py-3 px-4 mx-3 rounded-md border'>
+            <a href="#" className='py-3 px-4 mx-3 rounded-md border text-center block'>
                 Explore Our Blog
             </a>
         </div>

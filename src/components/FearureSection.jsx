@@ -17,7 +17,7 @@ const FearureSection = () => {
             
         </div>
         <div className="text-center pt-20">
-            <span className='bg-neutral-100 dark:bg-neutral-900 text-orange-800 dark:text-orange-500  rounded-full h-6 text-sm font-medium px-2 py-1 uppercase'>
+            <span className='bg-neutral-100 text-orange-800 rounded-full h-6 text-sm font-medium px-2 py-1 uppercase'>
                 features
             </span>
         </div>
@@ -25,7 +25,7 @@ const FearureSection = () => {
         {features.map((feature, index) => (
           <div key={index} className="w-full sm:w-1/2 lg:w-1/2" >
             <div className="flex">
-              <div className="flex mx-6 h-10 w-10 p-2 bg-neutral-100 dark:bg-neutral-900 text-orange-700 justify-center items-center rounded-full">
+              <div className="flex mx-6 h-10 w-10 p-2 bg-neutral-100 text-orange-700 justify-center items-center rounded-full">
                 {feature.icon}
               </div>
               <div>
